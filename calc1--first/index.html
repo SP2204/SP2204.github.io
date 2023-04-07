@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+        <meta name="description" content="flexbox nameofproject">
+      	<meta name="keywords" content="one, two, three">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- https://www.w3schools.com/icons/fontawesome_icons_intro.asp -->
+        <!-- https://unsplash.it/386/292 -->
+    
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+      </head>
+
+    <body>
+      <main>
+        <section id="lcdScreen">
+            <div class="lcdLine" id="lineTop">
+              <span class="number" id="screenTop"></span>
+              <span class="operator" id="opTop"></span>
+            </div>
+            <div class="lcdLine" id="lineMid">
+              <span class="number" id="screenMid"></span>
+              <span class="operator" id="opMid"></span>
+            </div>
+            <div class="lcdLine" id="lineBot">
+              <span class="number" id="screenBot"></span>
+              <span class="operator" id="opBot"></span>
+            </div>
+        </section>
+        <section id="buttons">
+          <div class="row">
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="div">/</button>
+          </div>
+          <div class="row">
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="mult">x</button>
+          </div>
+          <div class="row">
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="add">+</button>
+          </div>
+          <div class="row">
+            <button id="0">0</button>
+            <button id="decimal">.</button>
+            <button id="equals">=</button>
+            <button id="subt">-</button>
+          </div>
+        </section>
+      </main>
+
+
+      <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
